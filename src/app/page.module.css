@@ -1,0 +1,116 @@
+.MainSlide {
+  width: 83%;
+  background-color: var(--color-white);
+  height: 80vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+.navItem {
+  width: 30%;
+}
+.navItem span {
+  border: 1px solid;
+  border-radius: 40%;
+  padding: 3px 10px;
+}
+.navItem i {
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 6px 6px;
+}
+.toothText {
+  width: 60%;
+  text-transform: uppercase;
+  text-align: center;
+}
+.toothText i {
+  background-color: #ff4e25;
+  color: var(--color-white);
+  scale: 0.68;
+}
+.toothText span {
+  font-size: 26px;
+}
+.signup {
+  background-color: #ff4e25;
+  color: var(--color-white);
+  font-weight: 200;
+}
+.headingtext h1 {
+  scale: 2.8;
+  text-align: center;
+  margin: 35vh 2px;
+}
+.imageBanner img {
+  width: 220px;
+  height: 250px;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+}
+
+.imageBanner img:nth-child(1) {
+  transform: rotate(310deg);
+}
+.imageBanner img:nth-child(2) {
+  transform: rotate(320deg);
+}
+.imageBanner img:nth-child(3) {
+  transform: rotate(340deg);
+}
+.imageBanner img:nth-child(4) {
+  transform: rotate(0deg);
+}
+.bottomText p {
+  position: absolute;
+  bottom: 30px;
+}
+.socailMedia {
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+}
+.socailMedia i {
+  margin: 0 10px;
+  scale: 1.9;
+}
+
+.page2 {
+  width: 100%;
+  background-color: var(--color-white);
+  height: 80vh;
+  position: absolute;
+  top: 90vh;
+  border-radius: 10px;
+}
+.slide2Heading1 > h1 {
+  display: none;
+  font-size: 5rem;
+  text-align: right;
+  margin: 15px 8%;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.slide2Heading1 > span {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .headingtext h1 {
+    scale: 1.9;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .headingtext h1 {
+    scale: 2.4;
+  }
+}
+@media only screen and (min-width: 1441px) and (max-width: 2560px) {
+}
