@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={inter.className}>{children}</body>
-      <script
+      {/* <script
         src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"
         async
       ></script>
@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
         async
-      ></script>
+      ></script> */}
       <script src="https://use.fontawesome.com/43521838a4.js" async></script>
     </html>
   );

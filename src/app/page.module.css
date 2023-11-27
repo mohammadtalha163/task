@@ -27,7 +27,7 @@
   text-align: center;
 }
 .toothText i {
-  background-color: #ff4e25;
+  background-color: var(--color-orange);
   color: var(--color-white);
   scale: 0.68;
 }
@@ -35,7 +35,7 @@
   font-size: 26px;
 }
 .signup {
-  background-color: #ff4e25;
+  background-color: var(--color-orange);
   color: var(--color-white);
   font-weight: 200;
 }
@@ -87,17 +87,6 @@
   position: absolute;
   top: 90vh;
   border-radius: 10px;
-}
-.slide2Heading1 > h1 {
-  display: none;
-  font-size: 5rem;
-  text-align: right;
-  margin: 15px 8%;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-.slide2Heading1 > span {
-  display: none;
 }
 
 @media screen and (max-width: 767px) {
