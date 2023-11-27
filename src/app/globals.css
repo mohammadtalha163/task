@@ -93,3 +93,46 @@ a {
   transform: translate(-100px, 0px);
   z-index: -3;
 }
+.sliderImages {
+  position: absolute;
+  top: -60px;
+  height: 80vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  z-index: -2;
+  opacity: 0;
+}
+.sliderImages img {
+  object-fit: fill;
+  border-radius: 15px;
+  margin: 10px;
+}
+.sliderImagesOne {
+  transform: translate(0px, 20px);
+}
+.sliderImagesTwo {
+  transform: translate(0px, -20px);
+}
+.slideimageThree {
+  opacity: 0;
+  margin-top: 14vh;
+}
+.slideimageThree i {
+  margin: 10px;
+  font-size: 20px;
+}
+.slideimageThree h1 {
+  text-transform: uppercase;
+}
+.slideimageThree button {
+  text-transform: capitalize;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: transparent;
+}
+.slideimageThree button:nth-child(1) {
+  background-color: var(--color-orange);
+  border: 0px;
+}
